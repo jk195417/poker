@@ -3,8 +3,15 @@
   "name": "Facebook poker",
   "version": "0.1",
   "description": "Facebook auto poke back",
+  "icons": {
+    "16": "assets/images/icon16.png",
+    "24": "assets/images/icon24.png",
+    "32": "assets/images/icon32.png",
+    "64": "assets/images/icon64.png",
+    "128": "assets/images/icon128.png"
+  },
   "browser_action": {
-    "default_icon": "assets/images/icon.png",
+    "default_icon": "assets/images/icon16.png",
     "default_popup": "popup.html",
     "default_title": "poke time!"
   },
