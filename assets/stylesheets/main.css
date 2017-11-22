@@ -1,0 +1,48 @@
+body {
+  width: auto;
+  height: auto;
+  padding: 5px 12px;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 5px 12px;
+  text-decoration: none;
+}
+
+#startBtn {
+  background-color: #00d1b2;
+  color: #fff;
+}
+
+#stopBtn {
+  background-color: #ff3860;
+  color: #fff;
+}
+
+#startState {
+  background-color: #00d1b2;
+  color: #fff;
+}
+
+#stopState {
+  background-color: #ff3860;
+  color: #fff;
+}

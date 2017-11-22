@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Facebook poker",
+  "version": "0.1",
+  "description": "Facebook auto poke back",
+  "browser_action": {
+    "default_icon": "assets/images/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "poke time!"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://www.facebook.com/pokes/*",
+  ]
+}
