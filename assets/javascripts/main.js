@@ -43,8 +43,8 @@ $(document).ready(function() {
   });
 
   $('#poke-link').on('click', function() {
-    chrome.tabs.executeScript({
-      code: 'location.replace("https://www.facebook.com/pokes");'
+    chrome.tabs.create({
+      url: "https://www.facebook.com/pokes"
     });
   });
 });
