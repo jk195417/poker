@@ -1,7 +1,7 @@
 function pokeBack() {
   var btns = [...document.querySelectorAll('a[ajaxify^="/pokes/inline/?"]')]
   var pokeBackBtns = btns.filter(btn => btn.textContent === "戳回去");
-  if (isPoking) {
+  if (isPoking() === 'true') {
     pokeBackBtns.forEach(btn => btn.click());
   }
   setNextPoke();
@@ -21,7 +21,7 @@ function meta() {
 }
 
 function isPoking() {
-  meta().dataset.poking
+  return meta().dataset.poking
 }
 
 function poking(bool) {
