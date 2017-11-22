@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Facebook Poker</title>
+
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
+
+  <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+  <script src="assets/javascripts/main.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <h1 class="text-center">Facebook Poker</h1>
+
+  <div>
+    <p id="stopState" class="btn text-center">State : Resting</p>
+    <p id="startState" class="btn text-center d-none">State : Running</p>
+  </div>
+
+  <ol>
+    <li>Sign in Facebook</li>
+    <li>Go to <a id="poke-link" href="#">https://www.facebook.com/pokes</a></li>
+    <li>Click Start enable auto poke back.</li>
+  </ol>
+
+  <div class="d-flex">
+    <a id="startBtn" class="btn" href="#">Start</a>
+    <a id="stopBtn" class="btn d-none" href="#">Stop</a>
+  </div>
+</body>
+
+</html>
